@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z nag³ówkiem i sekcjami</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: red;
+            height: 50px;
+        }
+        .container {
+            display: flex;
+        }
+        .section1 {
+            background-color: blue;
+            width: 30%;
+            height: calc(100vh - 50px);
+        }
+        .section2 {
+            background-color: green;
+            width: 70%;
+            height: calc(100vh - 50px);
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <div class="section1"></div>
+        <div class="section2"></div>
+    </div>
+</body>
+</html>
+
+
+
+----------
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.section1 {
+    background-color: blue;
+    width: 30%;
+    height: calc(100vh - 50px);
+}
+
+.section2 {
+    background-color: green;
+    width: 70%;
+    height: calc(100vh - 50px);
+}
